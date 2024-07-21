@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+  }
+  #user-img{
+   height: 50px;
+   width: 50px;   
+  }
+  #grid{
+      background-color: blue;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      gap: 10px;
+      height: 350px;
+      width: 650px;
+  
+  
+  }
+  .child{
+      background-color: red;
+      border-radius: 25px; 
+  }
+  .childx{
+      background-color: var(--Dark-blue);
+      border-radius: 25px;
+  
+  }
+  #title{
+      padding-left: 15px;
+  }
+  .child1{
+      grid-row: span 2;
+  }
+  .child-s1{
+      background-color: var(--Blue);
+      border: 3px solid var(--Blue);
+      border-radius: 25px;
+      height: 250px;
+   
+  }
+  .child-s2{
+      background-color: var(--Dark-blue);
+      border: 3px solid var(--Dark-blue);
+      border-radius: 25px;
+      height: 147px;
+      margin-top: 19px;
+   
+  }
+  :root{
+  --Blue: hsl(246, 80%, 60%);
+  --Light-red: hsl(15, 100%, 70%);
+  --Soft-blue : hsl(195, 74%, 62%);
+  --Light-red : hsl(348, 100%, 68%);
+  --Lime-green : hsl(145, 58%, 55%);
+  --Violet : hsl(264, 64%, 52%);
+  --Soft-orange: hsl(43, 84%, 65%);
+  /*BackGround colors*/
+  --Very-dark-blue: hsl(226, 43%, 10%);
+  --Dark-blue: hsl(235, 46%, 20%);
+  --Desaturated-blue: hsl(235, 45%, 61%);
+  --Pale-Blue: hsl(236, 100%, 87%);
+  }
+  #flex{
+  
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 14px;
+  color: white;
+      
+  }
+  
